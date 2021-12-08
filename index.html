@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 8 Project</title>
+  </head>
+  <body>
+    <header><h1>PokeDex Project</h1></header>
+    <div class="filter">
+      <ul>
+        <li data-filter="all">all</li>
+        <li data-filter="fire">fire</li>
+        <li data-filter="grass">grass</li>
+        <li data-filter="electric">electric</li>
+        <li data-filter="dark">dark</li>
+        <li data-filter="water">water</li>
+        <li data-filter="ground">ground</li>
+        <li data-filter="rock">rock</li>
+        <li data-filter="fairy">fairy</li>
+        <li data-filter="poison">poison</li>
+        <li data-filter="bug">bug</li>
+        <li data-filter="dragon">dragon</li>
+        <li data-filter="steel">steel</li>
+        <li data-filter="ghost">ghost</li>
+        <li data-filter="ice">ice</li>
+        <li data-filter="psychic">psychic</li>
+        <li data-filter="flying">flying</li>
+        <li data-filter="fighting">fighting</li>
+        <li data-filter="normal">normal</li>
+        <li data-filter="favorite" class="favs">favorites</li>
+      </ul>
+      <div class="buttons">
+        <button id="random-btn" class="random-btn">Randomly Add Pokemon</button>
+        <button id="sort-btn" class="sort-btn">Sort Alphabetically</button>
+        <button id="reverse-sort-btn" class="sort-btn">
+          Sort Reverse Alphabetically
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="poke-container" class="poke-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
